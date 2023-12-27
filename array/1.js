@@ -30,23 +30,3 @@ console.log(result);
 //using set
 
 
-const twoNumberSum = (array, target) => {
-    let set = new Set();
-
-    for (let i = 0; i < array.length; i++) {
-        let number = array[i];
-        let match = target - number;
-
-        if (set.has(match)) {
-            return [number, match];
-        } else {
-            set.add(number);
-        }
-    }
-    return null;
-}
-
-
-
-const res = twoNumberSum(numbers,targetSum)
-console.log(res);
