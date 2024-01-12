@@ -439,7 +439,12 @@ while(l<=r){
     }
 }
 
-console.log(result)
-let ss='javad'
-let sss=ss.substring(0,3)
-console.log(sss)
+// let ss='javad'
+// let sss=ss.substring(0,3)
+
+// let nnn= toString(123)
+// let ssss= nnn.split('')
+// console.log(ssss)
+
+let obj={ '1': 3, '2': 2, '3': 1 }
+console.log(Object.entries(obj))
